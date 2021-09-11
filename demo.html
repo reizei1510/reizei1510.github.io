@@ -43,7 +43,75 @@
     
     <p id="p2">Фрагмент страницы</p>
     
-    <h2><p id="n3">Форма</p></h2>
+    <h1><p id="n3">Форма</p></h1>
+
+    <form action="/"
+      method="POST">
+
+      <label>
+        Имя:<br />
+        <input name="field-name-1"
+          value="" />
+      </label><br />
+
+      <label>
+        email:<br />
+        <input name="field-email"
+          value=""
+          type="email" />
+      </label><br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2019-08-13"
+          type="date" />
+      </label><br />
+      
+      Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Мужской</label>
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Женский</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Другое</label><br />
+      
+      Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        0</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        4</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Другое</label><br />
+      
+      <label>
+        Сверхспособность:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1" selected="selected">Бессмертие</option>
+          <option value="Значение2">Прохождение сквозь стены</option>
+          <option value="Значение3">Левитация</option>
+        </select>
+      </label><br />
+
+      <label>
+        Биография:<br />
+        <textarea name="field-name-2"></textarea>
+      </label><br />
+
+      <label><input type="checkbox"
+        name="check-1" />
+        С контрактом ознакомлен(а)</label><br />
+
+      <input type="submit" value="Отправить" />
+    </form>
 
   </body>
 

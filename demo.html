@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 
-<!-- комментарий в HTML -->
-
-<!-- в первой строке мы сообщаем браузеру,
-  что это документ HTML5 -->
-
 <html lang="ru">
-
+  
+ 
   <head>
-    <title>Название страницы</title>
+    <p id = "n1"><title>Задание 1</title></p>
   </head>
 
   <body>
 
-    <h2>Нумерованный список</h2>
+    <p id = "n2"><title>Нумерованный список</h2><title></p>
 
     <ol>
-      <li><a href="http://emaple.com">Главная страница сайта example.com;</a></li>
-      <li><a href="https://emaple.com">Главная страница сайта example.com в протоколе https;</a></li>
+      <li><a href="http://example.com">Главная страница сайта example.com;</a></li>
+      <li><a href="https://example.com">Главная страница сайта example.com в протоколе https;</a></li>
       <li><a href="ftp://tavalik.ru/Temp/file.txt>Сервер FTP без авторизации;</a></li>
       <li><a href="ftp://user:pass123@tavalik.ru/Temp/file.txt>Сервер FTP с авторизацией;</a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Main_Page</li>Фрагмент страницы некоторого сайта;</a></li>
-      <li><a href="#p1">Фрагмент текущей страницы;</a></li>
-      <li>Элемент 3</li>
-      <li>Элемент 3</li>
-      <li><a href="">Ссылка без href;</li>
-      <li>Элемент 3</li>
-      <li>Элемент 3</li>
-      <li>Элемент 3</li>
-      <li>Элемент 3</li>
-      <li>Элемент 3</li>
+      <li><a href="http://example.com#p1">Фрагмент страницы некоторого сайта;</a></li>
+      <li><a href="#p2">Фрагмент текущей страницы;</a></li>
+      <li><a href="https://www.onlinestore.com?product=socks&color=black">Ссылка с двумя параметрами в URL;</a></li>
+      <li>
+        <ul>
+          <li><title><a href="#n1">Начало</a></title></li>
+          <li><title><a href="#n2">Список ссылок</a></title></li>
+          <li><title><a href="#n3">Форма</a></title></li>
+        </ul>
+      </li>
+      <li><a>Ссылка без href;</li>
+      <li><a href="">Ссылка с пустым href;</li>
+      <li><a href="http://example.com" rel="nofollow">Ссылка, по которой запрещён переход поисковиками</a></li>
+      <li><a href="http://example.com" rel="nofollow"><noindex>Ссылка, запрещенная для индексации поисковиками;</noindex></a></li>
+      <li><p>Главной особенностью <a href="https://ru.wikipedia.org/wiki/">Википедии</a> является то, что создавать и редактировать статьи в ней может любой пользователь Интернета. Все вносимые такими добровольцами изменения незамедлительно становятся доступными для просмотра всем посетителям сайта</p></li>
+      <li><a href="https://en.wikipedia.org/wiki/Green-head_ant"><img src="images/img1" width="50" height="50" alt="Зеленоголовый мураевей"></a></li>
       <li>Элемент 3</li>
       <li>Элемент 3</li>
       <li>Элемент 3</li>
       <li>Элемент 3</li>
     </ol>
     
-    <p id="p1">...</p>
-    <h2>Таблица</h2>
-
-    <table>
-      <tr>
-        <td>Первая ячейка первой строки</td>
-        <td>Вторая ячейка первой строки</td>
-      </tr>
-      <tr>
-        <td>Первая ячейка второй строки</td>
-        <td>Вторая ячейка второй строки</td>
-      </tr>
-    </table>
+    <p id="p2">Фрагмент страницы</p>
+    
+    <p id="n3"><title>Форма</title></p>
 
   </body>
 

@@ -1,8 +1,8 @@
 <style>
-  table tr:nth-child (odd) {
-    background-color: #FA8072;
+  tr:nth-child (odd) {
+    background: #FA8072;
   }
-  table tr:nth-child (even) {
-    background-color: #DC143C;
+  tr:nth-child (even) {
+    background: #DC143C;
   }
 </style>

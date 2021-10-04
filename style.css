@@ -23,3 +23,12 @@ header {
   width: 100px;
   height: 100px;
 }
+
+.content {
+  max-width:960px;
+  background-color:#efdecd;
+  margin: 0 auto;
+  margin-top:20px;
+  padding:10px;
+  text-align: center
+}

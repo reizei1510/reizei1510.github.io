@@ -6,13 +6,13 @@ header {
   height:120px;
   width: 100%;
   background-color:#efdecd;
+  padding 10px;
   vertical-align:middle
 }
 
 .head1 {
   background-color:#cd7f32;
   padding 10px;
-  margin 10px;
 }
 
 </style>

@@ -9,12 +9,12 @@ header {
 
 .head1 {
   max-wight: 100%;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .head2 {
   background-color:#cd7f32;
-  padding 10px;
+  padding: 10px;
 }
 
 #image {

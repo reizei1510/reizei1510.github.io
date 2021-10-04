@@ -1,4 +1,31 @@
-<style>
+div {
+	padding: 10px 0 0 10px;
+}
+
+body {
+  margin 0 0 0 0;
+}
+
+head1 {
+  height:120px;
+  max-width: 100%;
+  margin 0 auto 0 auto;
+  background-color:#efdecd;
+  padding 10px 0 0 10 px;
+}
+
+head2 {
+  background-color:#cd7f32;
+  padding 10px 0 0 10 px;
+}
+
+image {
+  float:left;
+  width:100px;
+  height:100px;
+  margin 10px 0 0 10px
+}
+
   tr:nth-child (odd) {
     background: #FA8072;
   }

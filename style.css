@@ -27,14 +27,16 @@ header {
   max-width:960px;
   background-color:#B0E0E6;
   margin: 0 auto;
+  margin-top: 10px;
   padding:10px;
-  text-align: justify;
+  text-align: center;
 }
 
 .content {
   max-width:960px;
   background-color:#B0E0E6;
   margin: 0 auto;
+  margin-top: 10px;
   padding:10px;
 }
 
@@ -51,4 +53,5 @@ footer {
   max-width:100%;
   background-color:#FFC0CB;
   padding: 10px;
+  margin-top: 10px;
 }

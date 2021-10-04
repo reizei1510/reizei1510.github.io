@@ -6,11 +6,16 @@ body {
   margin 0 0 0 0;
 }
 
-.head1 {
+header {
   height:120px;
-  max-width: 100%;
   background-color:#efdecd;
+}
+
+.head1 {
+  height: 100%;
+  max-width: 100%;
   padding 10px 10px 10px 10px;
+  margin: 0 0 0 0;
 }
 
 #head2 {

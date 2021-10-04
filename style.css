@@ -10,10 +10,10 @@ header {
 .head1 {
   max-wight: 100%;
   margin: 0;
+  padding 10px;
 }
 
 .head2 {
-  margin 10px;
   background-color:#cd7f32;
   padding 10px;
 }

@@ -19,6 +19,8 @@ header {
 
 #image {
   float: left;
+  height: 100px;
+  wight: 100px;
 }
 
 .menu {
@@ -43,7 +45,7 @@ table tr:nth-child(odd) {
 }
 
 table tr:nth-child(even) {
-	background-color: #7B68EE;
+	background-color: #B0C4DE;
 }
 
 footer {

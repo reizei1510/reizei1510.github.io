@@ -6,7 +6,7 @@ body {
   margin 0 0 0 0;
 }
 
-head1 {
+.head1 {
   height:120px;
   max-width: 100%;
   margin 0 auto 0 auto;
@@ -14,12 +14,12 @@ head1 {
   padding 10px 0 0 10 px;
 }
 
-head2 {
+#head2 {
   background-color:#cd7f32;
   padding 10px 0 0 10 px;
 }
 
-image {
+#image {
   float:left;
   width:100px;
   height:100px;

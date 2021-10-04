@@ -27,7 +27,6 @@ header {
   max-width:960px;
   background-color:#B0E0E6;
   margin: 0 auto;
-  margin-top:20px;
   padding:10px;
   text-align: justify;
 }
@@ -36,7 +35,6 @@ header {
   max-width:960px;
   background-color:#B0E0E6;
   margin: 0 auto;
-  margin-top:20px;
   padding:10px;
 }
 
@@ -52,6 +50,5 @@ footer {
   height:60px;
   max-width:100%;
   background-color:#FFC0CB;
-  margin-top:20px;
   padding: 10px;
 }

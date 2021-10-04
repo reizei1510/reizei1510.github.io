@@ -10,14 +10,13 @@ header {
 }
 
 .head2 {
-  max-wight: 960px;
   background-color:#cd7f32;
   margin: 0 auto;
   padding 10px;
 }
 
-#logo {
+#image {
 	float: left;
-	width: 150px;
+	width: 100px;
 	height:100px;
 }

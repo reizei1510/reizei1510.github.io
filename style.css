@@ -41,6 +41,14 @@ header {
   padding:10px;
 }
 
+table tr:nth-child(odd) {
+	background-color: #F08080;
+}
+
+table tr:nth-child(even) {
+	background-color: #FFB6C1;
+}
+
 footer {
   height:60px;
   max-width:100%;

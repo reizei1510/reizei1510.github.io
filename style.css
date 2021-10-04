@@ -42,7 +42,7 @@ header {
 }
 
 table tr:nth-child(odd) {
-	background-color: #4682B4;
+	background-color: #FFC0CB;
 }
 
 table tr:nth-child(even) {

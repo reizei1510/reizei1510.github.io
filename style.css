@@ -13,15 +13,13 @@ header {
 
 .head1 {
   height: 100%;
-  max-width: 100%;
-  padding 10px 10px 10px 10px;
-  margin: 0 0 0 0;
+  width: 100%;
+  padding 10px;
 }
 
 #head2 {
   background-color:#cd7f32;
-  padding 10px 10px 10px 10px;
-  margin 10px 10px 10px 10px;
+  padding 10px;
 }
 
 #image {

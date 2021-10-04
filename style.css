@@ -1,10 +1,9 @@
 body {
-  margin 0 0 0 0;
+  margin 0;
 }
 
 header {
   height:120px;
-  width: 100%;
   background-color:#efdecd;
   padding 10px;
 }

@@ -1,9 +1,8 @@
-header {
-  height: 120px;
-  background-color:#efdecd;
-}
+
 
 .head1 {
+  height: 120px;
+  background-color:#efdecd;
   max-wight: 100%;
   margin: 0;
   padding 10px;

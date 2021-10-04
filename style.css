@@ -40,6 +40,14 @@ header {
   padding:10px;
 }
 
+table {
+  border="1";	
+}
+
+table th {
+  width="200";
+}
+
 table tr:nth-child(odd) {
 	background-color: #FFC0CB;
 }

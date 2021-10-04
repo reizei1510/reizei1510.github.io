@@ -1,4 +1,6 @@
 header {
+  max-wight: 100%;
+  margin: 0 auto;
   height:120px;
   background-color:#efdecd;
 }

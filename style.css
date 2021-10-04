@@ -40,9 +40,10 @@ header {
   padding:10px;
 }
 
-table th, td {
+th, td {
   border:1px;
   width:200px;
+  text-align: center;
 }
 
 table tr:nth-child(odd) {

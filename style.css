@@ -1,7 +1,3 @@
-div {
-  padding: 10px 0 10px 0;
-}
-
 body {
   margin 0 0 0 0;
 }
@@ -13,28 +9,10 @@ header {
   vertical-align:middle
 }
 
-.head1 {
-  height: 100%;
-  width: 100%;
-  padding 10px;
-}
-
 #head2 {
   background-color:#cd7f32;
   padding 10px;
+  margin 10px;
 }
 
-#image {
-  float:left;
-  width:100px;
-  height:100px;
-  margin 10px 0 0 10px
-}
-
-  tr:nth-child (odd) {
-    background: #FA8072;
-  }
-  tr:nth-child (even) {
-    background: #DC143C;
-  }
 </style>

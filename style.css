@@ -1,11 +1,15 @@
 header {
   height:120px;
-  width:100%;
   background-color:#efdecd;
-  padding 10px;
 }
 
 .head1 {
+  max-wight: 100%;
+  margin: 0 auto;
+  padding 10px;
+}
+
+.head2 {
   max-wight: 960px;
   background-color:#cd7f32;
   margin: 0 auto;

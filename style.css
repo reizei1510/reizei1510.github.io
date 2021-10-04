@@ -1,14 +1,11 @@
 header {
-  display:  block;
-  max-wight: 100%;
-  margin: 0 auto;
-  height:120px;
+  height: 120px;
   background-color:#efdecd;
 }
 
 .head1 {
   max-wight: 100%;
-  margin: 0 auto;
+  margin: 0;
   padding 10px;
 }
 

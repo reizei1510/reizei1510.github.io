@@ -41,19 +41,20 @@ header {
 }
 
 table {
-  border="1";	
+  border-collapse: collapse;
+  border:1px;	
 }
 
-table th {
-  width="200";
+table th:nth-of-type {
+  width:200px;
 }
 
 table tr:nth-child(odd) {
-	background-color: #FFC0CB;
+  background-color: #FFC0CB;
 }
 
 table tr:nth-child(even) {
-	background-color: #B0C4DE;
+  background-color: #B0C4DE;
 }
 
 footer {

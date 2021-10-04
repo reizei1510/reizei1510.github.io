@@ -45,7 +45,7 @@ table {
   border:1px;	
 }
 
-table th:nth-of-type {
+table th:nth-of-type(n){
   width:200px;
 }
 

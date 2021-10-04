@@ -30,5 +30,21 @@ header {
   margin: 0 auto;
   margin-top:20px;
   padding:10px;
-  text-align: center
+  text-align: center;
+}
+
+.content {
+  max-width:960px;
+  background-color:#efdecd;
+  margin: 0 auto;
+  margin-top:20px;
+  padding:10px;
+}
+
+#foot {
+  height:60px;
+  max-width:100%;
+  background-color:#cd7f32;
+  margin-top:20px;
+  padding: 10px;
 }

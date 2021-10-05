@@ -31,7 +31,6 @@ nav {
 }
 
 .menu {
-  max-width:100%;
   margin:0;
   padding:10px;
   margin-top: 10px;
@@ -77,3 +76,14 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (min-device-width:  960px) {
+	#list {
+		order:  0;
+	}
+	#table {
+		order:  1;
+	}
+	#form {
+		order:  2;
+	}

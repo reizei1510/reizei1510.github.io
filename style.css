@@ -32,8 +32,8 @@ header {
   text-align: center;
 }
 
-#nav_text {
- margin-right:30px; 
+.nav_text {
+  margin-right:30px; 
 }
 
 .content {

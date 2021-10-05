@@ -49,9 +49,12 @@ header {
   flex-direction: column;
 }
 
+table {
+  wigth:70%; 
+}
+
 th, td {
   border:1px;
-  width:200px;
   text-align: center;
 }
 

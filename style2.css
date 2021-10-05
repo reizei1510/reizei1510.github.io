@@ -34,12 +34,12 @@ nav {
   margin: 0 auto;
   margin-top:10px;
   padding: 10px;
+  text-align: center;
 }
 
 .menu_text {
   display: inline;
   margin-right:30px;
-  text-align: center;
 }
 
 .content {

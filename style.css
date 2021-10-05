@@ -30,6 +30,7 @@ header {
   margin-top: 10px;
   padding:10px;
   text-align: center;
+  display: inline;
 }
 
 .nav_text {

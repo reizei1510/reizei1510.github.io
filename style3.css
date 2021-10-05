@@ -23,20 +23,23 @@ header {
   width: 110px;
 }
 
-.menu {
+nav {
   max-width:960px;
   background-color:#B0E0E6;
+}
+
+.menu {
   margin: 0 auto;
   margin-top: 10px;
   padding:10px;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  list-style: none;
 }
 
 .menu_text {
   margin-right:30px;
-  display: inline;
 }
 
 .content {

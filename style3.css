@@ -28,8 +28,6 @@ nav {
   width:960px;
   padding: 0;
   background-color:#B0E0E6;
-  display: flex;
-  flex-direction: row;
 }
 
 .menu {
@@ -37,6 +35,8 @@ nav {
   padding:10px;
   margin-top: 10px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .menu_text {

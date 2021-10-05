@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -8,7 +12,8 @@ header {
 }
 
 .head1 {
-  max-width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 10px;
 }
 
@@ -23,18 +28,19 @@ header {
   width: 110px;
 }
 
-.menu {
-  max-width:960px;
+nav {
   background-color:#B0E0E6;
   margin: 0 auto;
-  margin-top: 10px;
-  padding:10px;
-  text-align: center;
+  max-width:960px;
+  padding: 0;
 }
 
-.menu_text {
-  margin-right:30px;
-  display: inline;
+#menu {
+  margin:0;
+  padding:10px;
+  margin-top: 10px;
+  list-style: none;
+  text-align: center;
 }
 
 .content {

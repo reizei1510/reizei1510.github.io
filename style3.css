@@ -86,7 +86,7 @@ footer {
   flex-direction: column;
 }
 
-@media screen and (min-device-width:  960px) {
+@media (min-width: 600px) {
  .list {
 	order:  0;
  }

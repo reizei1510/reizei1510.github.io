@@ -24,20 +24,19 @@ header {
 }
 
 nav {
+  background-color:#B0E0E6;
   margin: 0 auto;
-  wigth:100%;
   max-width:960px;
   padding: 0;
 }
 
 .menu {
-  background-color:#B0E0E6;
   margin:0;
   padding:10px;
   margin-top: 10px;
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .menu li {

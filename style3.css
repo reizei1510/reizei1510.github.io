@@ -81,11 +81,11 @@ footer {
  #list {
 	order:  0;
  }
- #table {
-	order:  1;
- }
  #form {
 	order:  2;
+ }
+ #table {
+	order:  1;
  }
  #menu {
 	flex-direction: row;

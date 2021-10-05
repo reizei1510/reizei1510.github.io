@@ -25,7 +25,7 @@ header {
 
 nav {
   margin: 0 auto;
-  width:960px;
+  max-width:960px;
   padding: 0;
   background-color:#B0E0E6;
 }
@@ -39,7 +39,8 @@ nav {
   flex-direction: row;
 }
 
-.menu_text {
+.menu li a {
+  text-align: center;
   margin-right:30px;
 }
 

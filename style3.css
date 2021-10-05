@@ -35,7 +35,7 @@ nav {
   padding:10px;
   list-style: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .menu_text {

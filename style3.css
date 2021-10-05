@@ -78,17 +78,17 @@ footer {
 }
 
 @media screen and (min-device-width:  960px) {
-	#list {
-		order:  0;
-	}
-	#table {
-		order:  1;
-	}
-	#form {
-		order:  2;
-	}
-	#menu {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-around;
-	}
+ #list {
+	order:  0;
+ }
+ #table {
+	order:  1;
+ }
+ #form {
+	order:  2;
+ }
+ #menu {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+ }

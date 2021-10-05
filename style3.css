@@ -53,8 +53,12 @@ nav {
   max-width: 100%;	
 }
 
-th, td {
+table {
   border:1px;
+  margin: 0 auto;
+}
+
+th, td {
   width:200px;
   text-align: center;
 }

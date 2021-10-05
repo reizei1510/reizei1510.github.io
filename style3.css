@@ -39,7 +39,7 @@ nav {
   flex-direction: column;
 }
 
-.menu li {
+#menu li {
   text-align: center;
   margin-right:30px;
 }
@@ -88,7 +88,7 @@ footer {
 	#form {
 		order:  2;
 	}
-	menu {
+	#menu {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-between;

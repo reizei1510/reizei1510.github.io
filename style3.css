@@ -26,13 +26,13 @@ header {
 nav {
   max-width:960px;
   background-color:#B0E0E6;
+  text-align: center;
 }
 
 .menu {
   margin: 0 auto;
   margin-top: 10px;
   padding:10px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   list-style: none;

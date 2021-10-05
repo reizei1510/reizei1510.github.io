@@ -34,6 +34,11 @@ header {
   text-align: center;
 }
 
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+}
+
 .content {
   max-width:960px;
   background-color:#B0E0E6;

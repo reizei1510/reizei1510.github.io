@@ -26,11 +26,6 @@ header {
 nav {
   max-width:960px;
   background-color:#B0E0E6;
-  text-align: center;
-}
-
-nav ul {
-    display: inline-block;
 }
 
 .menu {

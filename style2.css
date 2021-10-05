@@ -29,18 +29,16 @@ header {
 }
 
 nav {
+  max-width:960px;
   background-color:#B0E0E6;
   margin: 0 auto;
-  max-width:960px;
-  padding: 0;
+  margin-top:10px;
+  padding: 10px;
 }
 
-#menu {
-  margin:0;
-  padding:10px;
-  margin-top: 10px;
-  list-style: none;
-  text-align: center;
+.menu_text {
+  display: inline;
+  margin-right:30px;
 }
 
 .content {

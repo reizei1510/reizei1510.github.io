@@ -17,7 +17,7 @@ header {
   padding: 10px;
 }
 
-#image {
+#logo {
   float: left;
   height: 110px;
   width: 110px;
@@ -47,6 +47,10 @@ nav {
   padding:10px;
   display: flex;
   flex-direction: column;
+}
+
+#image {
+  max-width: 100%;	
 }
 
 th, td {

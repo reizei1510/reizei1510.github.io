@@ -82,13 +82,13 @@ footer {
 }
 
 @media screen and (min-device-width:  960px) {
- #list {
+ .list {
 	order:  0;
  }
- #form {
+ .form {
 	order:  2;
  }
- #table {
+ .table {
 	order:  1;
  }
  #menu {

@@ -55,7 +55,7 @@ nav {
 
 th, td {
   border:1px;
-  width:200px;
+  max-width:200px;
   text-align: center;
 }
 

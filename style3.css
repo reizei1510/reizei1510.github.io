@@ -59,13 +59,8 @@ nav {
 }
 
 table {
-  order: 2;
   border:1px;
   margin: 0 auto;
-}
-
-.form {
-  order: 1;	
 }
 
 th, td {
@@ -106,3 +101,4 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-around;
  }
+}

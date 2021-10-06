@@ -86,15 +86,20 @@ footer {
   flex-direction: column;
 }
 
+.form {
+  order: 1;
+}
+
+.table {
+ order: 2;	
+}
+
 @media (min-width: 600px) {
- .list {
-	order:  0;
+ .table {
+	order:  1;
  }
  .form {
 	order:  2;
- }
- .table {
-	order:  1;
  }
  #menu {
 	flex-direction: row;

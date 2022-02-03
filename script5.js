@@ -13,3 +13,8 @@ function click1(){
     document.getElementById('result').innerHTML = "Сумма равна: " + r + " руб.";
     return false;
   }
+
+window.addEventListener('DOMContentLoaded', function (event) {
+    console.log("DOM fully loaded and parsed");
+    document.getElementById("button").addEventListener("click", calculate);
+});

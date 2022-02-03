@@ -1,10 +1,10 @@
 function click1(){
     let re = /^\d+$/;
-    let c = document.getElementByName("field1");
-    let p = document.getElementByName("field2");
+    let c = document.getElementByName("count");
+    let p = document.getElementByName("price");
     let r = document.getElementByID("result");
-    if(re.test(f1.value) && re.test(f2.value)){
-      r.innerHTML = parseInt(f1.value) * parseInt(f2.value);
+    if(re.test(c.value) && re.test(p.value)){
+      r.innerHTML = parseInt(c.value) * parseInt(p.value);
     }
     else {
       r.innerHTML = "Введены некорректные данные!";

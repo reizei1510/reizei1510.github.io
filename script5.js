@@ -1,12 +1,12 @@
 function click1(){
+function click1(){
     let re = /^\d+$/;
-    let c = document.getElementByID("field1");
-    let p = document.getElementByID("field2");
-    let r = document.getElementByID("result");
-    if(re.test(c.value) && re.test(p.value)){
-      r.innerHTML = parseInt(c.value) * parseInt(p.value);
-    }
-    else {
+    let f1 = document.getElementById("field1");
+    let f2 = document.getElementById("field2");
+    let r = document.getElementById("result");
+    if(re.test(f1.value) && re.test(f2.value)){
+      r.innerHTML = parseInt(f1.value) * parseInt(f2.value);
+    } else{
       r.innerHTML = "Введены некорректные данные!";
     }
     return false;
@@ -14,5 +14,5 @@ function click1(){
 
   window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
-    document.getElementById("button").addEventListener("click", click1);
+    document.getElementById("button1").addEventListener("click", click1);
   });

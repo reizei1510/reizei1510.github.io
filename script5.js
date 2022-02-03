@@ -1,4 +1,4 @@
-function click1(){
+function click(){
     let re = /^\d+$/;
     let c = document.getElementByName("count");
     let p = document.getElementByName("price");
@@ -14,5 +14,5 @@ function click1(){
 
   window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
-    document.getElementById("button").addEventListener("click", click1);
+    document.getElementById("button").addEventListener("click", click);
   });

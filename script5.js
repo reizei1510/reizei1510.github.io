@@ -1,17 +1,19 @@
 function click1() {
-    let c = document.getElementById('count').value;
-    let p = document.getElementById('price').value;
-    let r = document.getElementById('result');
-    if (re.test(c) && re.test(p)){
-      r.innerHTML = parseInt(c) * parseInt(p);
+    let re = /^\d+$/;
+    let c = document.getElementById("count");
+    let p = document.getElementById("price");
+    let r = document.getElementById("result");
+    if (re.test(c[0].value) && re.test(p[0].value)){
+      alert(parseInt(c[0].value) * parseInt(p[0].value));
     }
     else {
-      r.innerHTML = "Введены некорректные данные!";
+      alert("Введены некорректные данные");
     }
     return false;
   }
 
 window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
-    document.getElementById("button").addEventListener("click", click1);
+    let b = document.getElementById("button");
+    b.addEventListener("click", click1);
 });

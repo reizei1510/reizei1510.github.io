@@ -4,6 +4,10 @@ header main {
     height: 100%;
 }
 
+header text {
+    background-color:#FFC0CB;
+}
+
 header img {
   height: 110px;
   width: 110px;

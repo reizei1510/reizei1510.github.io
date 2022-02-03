@@ -1,6 +1,7 @@
-header {
-  background-color:#B0E0E6;
-  vertical-align: middle;
+header main {
+    background-color:#B0E0E6;
+    vertical-align: middle;
+    height: 100%;
 }
 
 header img {

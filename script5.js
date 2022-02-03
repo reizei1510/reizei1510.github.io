@@ -11,7 +11,7 @@ function click1(){
     }
     r = c * p;
     console.log("result");
-    console.log(result);
-    document.getElementById('sum').innerHTML = "Сумма равна: " + r + " руб.";
+    console.log(r);
+    document.getElementById('result').innerHTML = "Сумма равна: " + r + " руб.";
     return false;
   }

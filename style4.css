@@ -9,11 +9,8 @@ header img {
   width: 110px;
 }
 
-nav {
-  background-color:#B0E0E6;
-  margin: 0 auto;
-  max-width:960px;
-  padding: 0;
+ref {
+    background-color: #B0E0E6;
 }
 
 #menu {

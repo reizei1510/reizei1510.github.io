@@ -1,4 +1,4 @@
-function click1(){
+function click1() {
     let c = document.getElementById('count').value;
     let p = document.getElementById('price').value;
     let r = document.getElementById('result');
@@ -8,9 +8,6 @@ function click1(){
     else {
       r.innerHTML = "Введены некорректные данные!";
     }
-    console.log("result");
-    console.log(r);
-    document.getElementById('result').innerHTML = "Сумма равна: " + r + " руб.";
     return false;
   }
 

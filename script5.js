@@ -9,7 +9,6 @@ function click1(){
     else {
       r.innerHTML = "Введены некорректные данные!";
     }
-    r = c * p;
     console.log("result");
     console.log(r);
     document.getElementById('result').innerHTML = "Сумма равна: " + r + " руб.";

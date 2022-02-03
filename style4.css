@@ -1,4 +1,11 @@
-header main {
+header text {
+    font-family: "Arial", monotype;
+    background-color:#6495ED;
+    vertical-align: middle;
+    height: 100%;
+}
+
+header logo {
     background-color:#6495ED;
     vertical-align: middle;
     height: 100%;

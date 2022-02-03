@@ -1,5 +1,4 @@
 function click1(){
-function click1(){
     let re = /^\d+$/;
     let f1 = document.getElementById("field1");
     let f2 = document.getElementById("field2");

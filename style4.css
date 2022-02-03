@@ -1,29 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
 header {
-  height: 120px;
   background-color:#B0E0E6;
+  vertical-align: middle;
 }
 
-.head1 {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-.head2 {
-  background-color:#FFC0CB;
-  padding: 10px;
-}
-
-#logo {
-  float: left;
+header img {
   height: 110px;
   width: 110px;
 }

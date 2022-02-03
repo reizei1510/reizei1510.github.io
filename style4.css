@@ -19,7 +19,6 @@ header img {
 
 table {
   border:1px;
-  margin: 0 auto;
 }
 
 th, td {
@@ -43,26 +42,4 @@ footer {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-}
-
-.form {
-  order: 1;
-}
-
-.table {
- order: 2;	
-}
-
-@media (min-width: 600px) {
- .table {
-	order:  1;
- }
- .form {
-	order:  2;
- }
- #menu {
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
- }
 }

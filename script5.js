@@ -4,10 +4,10 @@ function click1() {
     let p = document.getElementById("price");
     let r = document.getElementById("result");
     if (re.test(c[0].value) && re.test(p[0].value)){
-      alert(parseInt(c[0].value) * parseInt(p[0].value));
+      r.innerHTML = parseInt(c[0].value) * parseInt(p[0].value);
     }
     else {
-      alert("Введены некорректные данные");
+      r.innerHTML = "Введены некорректные данные";
     }
     return false;
   }

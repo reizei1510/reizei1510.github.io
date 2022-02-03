@@ -3,27 +3,30 @@
 <html lang="ru">
 
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Задание 5</title>
+    <title>Exercise5</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
+
   
+
   <body>
 
     <form>
       <label>
         Количество товара:<br/>
-        <input name="count" type="text"/>
+        <input id="field1" name="field1" type="text"/>
       </label><br/>
       <label>
         Стоимость товара:<br/>
-        <input name="price" type="text"/>
+        <input id="field2" name="field2" type="text"/>
       </label><br/>
-      <br/><button id="button" onclick="return click1();">Рассчитать</button>
+      <br/><button id="button1" onclick="return false;">Рассчитать</button>
     </form>
+
     <div id="result"></div>
     
-    <script src="script5.js"></script>
+    <script src="javascript5.js"></script>
   
   </body>
 

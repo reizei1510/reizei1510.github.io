@@ -1,7 +1,7 @@
 function click1(){
     let t1 = /^\d+$/;
-    let f1 = document.getElementByName("field1");
-    let f2 = document.getElementByName("field2");
+    let f1 = document.getElementById("field1");
+    let f2 = document.getElementById("field2");
     let r1 = document.getElementById("result1");
     if(t1.test(f1.value) && t1.test(f2.value)){
       r1.innerHTML = parseInt(f1.value) * parseInt(f2.value);

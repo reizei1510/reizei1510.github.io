@@ -1,9 +1,9 @@
  function click1(){
-    let re = /^\d+$/;
+    let t = /^\d+$/;
     let f1 = document.getElementById("field1");
     let f2 = document.getElementById("field2");
     let r = document.getElementById("result");
-    if(re.test(f1.value) && re.test(f2.value)){
+    if(t.test(f1.value) && t.test(f2.value)){
       r.innerHTML = parseInt(f1.value) * parseInt(f2.value);
     } else {
       r.innerHTML = "Введены некорректные данные!";

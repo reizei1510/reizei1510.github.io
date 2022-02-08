@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".gallery").slick({
+    $('.slider').slick({
         dots: true,
         infinite: true,
         slidesToShow: 4,
@@ -7,6 +7,13 @@ $(document).ready(function(){
         responsive: [
             {
               breakpoint: 850,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+              }
+            },
+            {
+              breakpoint: 480,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2

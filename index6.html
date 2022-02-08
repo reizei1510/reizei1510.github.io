@@ -25,18 +25,21 @@
     <div id="result1"></div><br/>
     
    <form>
-          <label> Количество нужного товара:<br />
-            <input id="field3" name="field3" type="text" />
-          </label>
+	  Выберите товар:<br />
           <select name="prodType">
            <option value="1">Тарелка</option>
            <option value="2">Вилка</option>
            <option value="3">Кружка</option>
           </select>
+          <label>
+            Количество:<br />
+            <input id="field3" name="field3" type="text" />
+          </label>
          <div class="prodOptions" id="prodOptions">
            <label><input type="radio" name="Options" id="option1" value="option1">Нержавеющая сталь</label>
            <label><input type="radio" name="Options" id="option2" value="option2">Серебро</label>
          </div>
+	 Дополнительные параметры:<br />
          <div class="checkbox1" id="checkbox1">
          <label><input type="checkbox" name="prop1" id="ch1">Покрас</label>
          <label><input type="checkbox" name="prop2" id="ch2">Упаковка</label>

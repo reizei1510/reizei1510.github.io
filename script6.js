@@ -6,7 +6,7 @@ function click1(){
     if(t1.test(f1.value) && t1.test(f2.value)){
       r1.innerHTML = parseInt(f1.value) * parseInt(f2.value);
     } else {
-      r1.innerHTML = "Введены некорректные данные!";
+      r1.innerHTML = "Некорректные данные";
     }
     return false;
   }
@@ -29,14 +29,14 @@ let param = {
     [100, 300, 500]
 };
 console.log(param);
-let pr=0; //Для радиокнопок
-let pch=0; //Для чекбокса
+let pr=0;
+let pch=0;
 window.addEventListener("DOMContentLoaded", function (event) {
-    let f3 = document.getElementsByName("field3"); //Количество товара
-    let r2 = document.getElementById("result"); //Результат(конечная стоимость)
-    let s = document.getElementsByName("Type"); //Изначальный выбор(1, 2 или 3)
-    s[0].addEventListener("change", function(event) {
-      let select = event.target; //Делегирование событий
+    let f3 = document.getElementsByName("field3");
+    let r2 = document.getElementById("result");
+    let sel = document.getElementsByName("Type");
+    sel[0].addEventListener("change", function(event) {
+      let select = event.target;
       console.log(select.value);
       let t2 = /^\s*\d+\s*$/;
       if(t2.exec(f3[0].value))
@@ -46,30 +46,25 @@ window.addEventListener("DOMContentLoaded", function (event) {
         if (select.value == "2")
         {
           r2.innerHTML=(param.Type[1]+pr)*f3[0].value;
-          let rad = document.querySelectorAll(".radio1 input[type=radio]"); //Все элементы для селектора радиокнопок
-          rad.forEach(function(radio) { //Функция для каждой радиокнопки(по очереди для всех)
+          let rad = document.querySelectorAll(".radio1 input[type=radio]");
+          rad.forEach(function(radio) {
           radio.addEventListener("change", function(event) {
           rad = event.target;
           console.log(rad.value);
           if(t2.exec(f3[0].value))
           {
-            if(document.getElementById("radio1").checked)
+            if(document.getElementById("rad1").checked)
             {
-                r2.innerHTML=(param.Type[1]+param.Radio.radio1)*f3[0].value;
-                pr=param.Radio.radio1;
+                r2.innerHTML=(param.Type[1]+param.Radio.rad1)*f3[0].value;
+                pr=param.Radio.rad1;
             }
-            if(document.getElementById("radio2").checked)
+            if(document.getElementById("rad2").checked)
             {
-                r2.innerHTML=(param.Type[1]+param.Radio.radio2)*f3[0].value;
-                pr=param.Radio.radio2;
-            }
-            if(document.getElementById("radio3").checked)
-            {
-                r2.innerHTML=(param.Type[1]+param.Radio.radio3)*f3[0].value;
-                pr=param.Radio.radio3;
+                r2.innerHTML=(param.Type[1]+param.Radio.rad2)*f3[0].value;
+                pr=param.Radio.rad2;
             }
         }
-        else {alert("Некорректный ввод");}
+        else {r2.innerHTML = "Некорректные данные";}
         });});
         }
         if (select.value == "3")
@@ -84,8 +79,13 @@ window.addEventListener("DOMContentLoaded", function (event) {
           {
             if(document.getElementById("ch1").checked)
             {
-                r2.innerHTML=(param.Type[2]+param.checkbox1.check1)*f3[0].value;
-                pch=param.checkbox1.check1;
+                r2.innerHTML=(param.Type[2]+param.checkbox1.ch1)*f3[0].value;
+                pch=param.checkbox1.ch1;
+            }
+            if(document.getElementById("ch2").checked)
+            {
+                r2.innerHTML=(param.Type[2]+param.checkbox1.ch2)*f3[0].value;
+                pch=param.checkbox1.ch1;
             }
             else
             {
@@ -93,12 +93,12 @@ window.addEventListener("DOMContentLoaded", function (event) {
                 pch=0;
             }
           }
-          else alert("Некорректный ввод");
+          else {r2.innerHTML = "Некорректные данные";}
         });
       });
       }
     }
-  else {alert("Некорректный ввод");}
+  else {r2.innerHTML = "Некорректные данные";}
     });
     return false;
 });

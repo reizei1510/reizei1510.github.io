@@ -9,10 +9,8 @@ body {
 }
 
 .slider img{
-    width: 85%;
-    height: 85%;
+    height: 250px;
     margin: 0 auto;
-    background-color: white;
 }
 
 .ex-num{

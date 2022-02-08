@@ -35,7 +35,6 @@ window.addEventListener("DOMContentLoaded", function (event) {
     let f = document.getElementsById("field3");
     let r = document.getElementById("result2");
     let s = document.getElementsByName("prodType");
-    r.innerHTML="2";
     s[0].addEventListener("change", function(event) {
       let select = event.target;
       console.log(select.value);
@@ -101,6 +100,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
     }
   else {r.innerHTML = "Введите количество товара";}
     });
+    r.innerHTML="2";
     return false;
 });
 window.addEventListener("DOMContentLoaded", function (event) {

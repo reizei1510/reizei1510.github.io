@@ -24,32 +24,28 @@
 
     <div id="result1"></div><br/>
     
-    <form>
-      <label>Выберите товар:
-          <select name="Type">
-           <option value="1">Вилка</option>
-           <option value="2">Кружка</option>
-           <option value="3">Тарелка</option>
+   <form>
+          <label> Количество нужного товара:<br />
+            <input id="field3" name="field3" type="text" />
+          </label>
+          <select name="prodType">
+           <option value="1">Тарелка</option>
+           <option value="2">Вилка</option>
+           <option value="3">Кружка</option>
           </select>
-      </label><br />
-          <label> Введите количество:
-            <input name="field3" type="text" />
-          </label><br />
-         <div id="radio1">
-           Выберите объём:
-           <label><input type="radio" name="Radio" id="rad1" value="option1">0.3</label>
-           <label><input type="radio" name="Radio" id="rad2" value="option2">0.5</label>
+         <div class="prodOptions" id="prodOptions">
+           <label><input type="radio" name="Options" id="option1" value="option1">Нержавеющая сталь</label>
+           <label><input type="radio" name="Options" id="option2" value="option2">Серебро</label>
          </div>
-         <div id="checkbox1">
-	 Выберите дополнительные параметры:
-         <label><input type="checkbox" name="check1" id="ch1">Покрас</label>
-         <label><input type="checkbox" name="check2" id="ch2">Упаковка</label>
+         <div class="checkbox1" id="checkbox1">
+         <label><input type="checkbox" name="prop1" id="ch1">Покрас</label>
+         <label><input type="checkbox" name="prop2" id="ch2">Упаковка</label>
          </div>
-    </form><br />
-    <div id="result2">
-    <div id="result">Стоимость товара(-ов):</div>
+   </form>
+	  
+   Стоимость товара(-ов):<div id="result"></div>
     
-    <script src="script6.js"></script>
+   <script src="script6.js"></script>
   
   </body>
 

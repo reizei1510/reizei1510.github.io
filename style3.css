@@ -108,7 +108,7 @@ footer {
   order: 2;	
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
  .table {
 	order:  1;
  }

@@ -87,11 +87,25 @@ footer {
 }
 
 .form {
+  max-width:960px;
+  background-color:#B0E0E6;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
   order: 1;
 }
 
 .table {
- order: 2;	
+  max-width:960px;
+  background-color:#B0E0E6;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  order: 2;	
 }
 
 @media (min-width: 600px) {

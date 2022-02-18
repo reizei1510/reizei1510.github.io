@@ -63,7 +63,7 @@ function calc() {
                     }
                     break;
             }
-            answer.innerHTML = "Стоимость: " + result + " руб.";
+            answer.innerHTML = result;
         }
     } 
 

@@ -30,6 +30,7 @@ function hiden() {
     }
 }
 function click2() {
+        let t2 = /^\d+$/;
         let prod, count, checkbox, radio, answer;
         let result = 0;
         prod = document.getElementById('prod').value;
@@ -37,7 +38,7 @@ function click2() {
         checkbox = document.getElementsByName('checkbox');
         radio = document.getElementsByName('radio');
         answer = document.getElementById('answer');
-        if ((!Number.isInteger(count)) || (count < 0)) {
+        if (t2.test(count) || (count < 0)) {
             answer.innerHTML = "Введите количество";
         } else {
             switch (prod) {

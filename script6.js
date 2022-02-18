@@ -30,7 +30,8 @@ function hiden() {
     }
 }
 function click2() {
-        let prod, count, checkbox, radio, result, answer;
+        let prod, count, checkbox, radio, answer;
+        let result = 0;
         var rate, chec = 0;
         prod = document.getElementById('prod').value;
         count = parseInt(document.getElementById('count').value);
@@ -64,17 +65,12 @@ function click2() {
                     }
                     break;
                 case '3':
-                    if (chec == 0) {
-                        result = count * 400;
-                    }
+                    result = count * 400;
                     if (chec == 1) {
-                        result = count * 600;
+                        result += count * 200;
                     }
                     if (chec == 2) {
-                        result = count * 100;
-                    }
-                    if (chec == 12) {
-                        result = count * (700);
+                        result += count * 100;
                     }
                     break;
             }

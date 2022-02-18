@@ -32,7 +32,7 @@ function hiden() {
 function click2() {
         let prod, count, checkbox, radio, result, answer;
         var rate, chec = 0;
-        type = document.getElementById('prod').value;
+        prod = document.getElementById('prod').value;
         count = parseInt(document.getElementById('count').value);
         checkbox = document.getElementsByName('checkbox');
         radio = document.getElementsByName('radio');

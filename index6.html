@@ -32,7 +32,7 @@
    <div class="col-12">
 	    <label>
 		Выберите товар:
-            	<select id="prod" class="m-1">
+            	<select id="prod">
                   <option value="1">Кружка</option>
                   <option value="2">Вилка</option>
                   <option value="3">Тарелка</option>
@@ -40,17 +40,17 @@
 	    </label><br/>
             <label>
 		Укажите количество товара:
-	    	<input type="text" id="count" class="m-1">
+	    	<input type="text" id="count">
 	    </label><br/>
-            <div id="radio">
+            <div id="radio" hidden="true">
 		Материал:
-                <input id="r1" type="radio" name="radio" class="m-1" value="1" checked>Нержавеющая сталь
-                <input id="r2" type="radio" name="radio" class="m-1" value="2">Серебро
+                <input id="r1" type="radio" name="radio" value="1" checked>Нержавеющая сталь
+                <input id="r2" type="radio" name="radio" value="2">Серебро
             <br/></div>
-            <div id="checkbox">
+            <div id="checkbox" hidden="true">
 		Дополнительные параметры:
-                <input id="chk1" type="checkbox" name="checkbox" class="m-1" value="1">Покрас
-                <input id="chk2" type="checkbox" name="checkbox" class="m-1" value="2">Упаковка
+                <input id="chk1" type="checkbox" name="checkbox" value="1">Покрас
+                <input id="chk2" type="checkbox" name="checkbox" value="2">Упаковка
             <br/></div>
             <br/><div id="answer">Ответ</div>
    </div>

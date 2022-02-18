@@ -12,8 +12,8 @@
 
 <body>
  <div class="container-fluid">
-  <div class="row d-flex text-center">
-   <div class="col-12 mt-3">
+  <div class="row row justify-content-center">
+   <div class="col-10 col-sm-12">
     <form>
       <label>
         Количество:<br/>
@@ -28,35 +28,27 @@
 
     <div id="result1">Ответ</div>
    
-   <div class="col-12 mt-3">	  
-     <form>
-	  Выберите товар:
-          <select name="product">
-           <option value="1">Тарелка</option>
-           <option value="2">Вилка</option>
-           <option value="3">Кружка</option>
-          </select><br />
-          <label>
-            Количество:
-            <input  type="text" name="field3"/>
-          </label>
-         <div class="options" id="prodOptions">
-           <label><input type="radio" name="Options" id="option1" value="option1">Нержавеющая сталь</label>
-           <label><input type="radio" name="Options" id="option2" value="option2">Серебро</label>
-         </div>
-         <div class="checkbox1" id="checkbox1"> 
-	 Дополнительные параметры:
-         <label><input type="checkbox" name="check1" id="ch1">Покрас</label>
-         <label><input type="checkbox" name="check2" id="ch2">Упаковка</label>
-         </div>
-     </form>
-     <label>  
-     Стоимость товара(-ов): <div id="result2"></div>
-     </label>
-	   
-     </div> 
-    </div>
+
+   <div class="col-10 col-sm-12">
+            <select id="prod" class="m-1">
+                <option value="1">Кружка</option>
+                <option value="2">Вилка</option>
+                <option value="3">Тарелка</option>
+            </select>
+            <input type="text" id="count" class="m-1" placeholder="Укажите количество продукта">
+            <div id="radio" hidden="true">
+                <input id="r1" type="radio" name="radio" class="m-1" value="1" checked>Нержавеющая сталь
+                <input id="r2" type="radio" name="radio" class="m-1" value="2">Серебро
+            </div>
+            <br>
+            <div id="checkbox" hidden="true">
+                <input id="chk1" type="checkbox" name="checkbox" class="m-1" value="1">Покрас
+                <input id="chk2" type="checkbox" name="checkbox" class="m-1" value="2">Упаковка
+            </div>
+            <div id="answer"></div>
    </div>
+  </div>
+ </div>
 	 
   <script src="script6.js"></script>
   

@@ -38,7 +38,7 @@ function click2() {
         checkbox = document.getElementsByName('checkbox');
         radio = document.getElementsByName('radio');
         answer = document.getElementById('answer');
-        if (t2.test(count) || (count < 0)) {
+        if (!t2.test(count) || (count < 0)) {
             answer.innerHTML = "Введите количество";
         } else {
             switch (prod) {

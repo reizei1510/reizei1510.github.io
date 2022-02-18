@@ -80,6 +80,16 @@ function click2() {
             }
             answer.innerHTML = "Стоимость: " + result + " руб.";
         }
+        console.log("prod");
+        console.log(prod);
+        console.log("count");
+        console.log(count);
+        console.log("radio");
+        console.log(rate);
+        console.log("checkbox");
+        console.log(chec);
+        console.log("answer");
+        console.log(answer);
     } 
 
   window.addEventListener('DOMContentLoaded', function (event) {

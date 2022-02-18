@@ -29,7 +29,7 @@ function hiden() {
             break;
     }
 }
-function click2() {
+function calc() {
         let t2 = /^\d+$/;
         let prod, count, checkbox, radio, answer;
         let result = 0;
@@ -71,10 +71,10 @@ function click2() {
     console.log("DOM fully loaded and parsed");
     document.getElementById("button1").addEventListener("click", click1);
     document.getElementById("prod").addEventListener("click", hiden);
-    document.getElementById("count").addEventListener("change", click2);
-    document.getElementById("prod").addEventListener("change", click2);
-    document.getElementById("r1").addEventListener("change", click2);
-    document.getElementById("r2").addEventListener("change", click2);
-    document.getElementById("chk1").addEventListener("change", click2);
-    document.getElementById("chk2").addEventListener("change", click2);
+    document.getElementById("count").addEventListener("change", calc);
+    document.getElementById("prod").addEventListener("change", calc);
+    document.getElementById("r1").addEventListener("change", calc);
+    document.getElementById("r2").addEventListener("change", calc);
+    document.getElementById("chk1").addEventListener("change", calc);
+    document.getElementById("chk2").addEventListener("change", calc);
   });

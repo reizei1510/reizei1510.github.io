@@ -37,7 +37,6 @@ function click2() {
         checkbox = document.getElementsByName('checkbox');
         radio = document.getElementsByName('radio');
         answer = document.getElementById('answer');
-    
         if ((!Number.isInteger(count)) || (count < 0)) {
             answer.innerHTML = "Введите количество";
         } else {

@@ -15,16 +15,10 @@ function hiden() {
     let prod;
     prod = document.getElementById('prod').value;
     switch (prod) {
-        case'1':
-            document.getElementById("radio").hidden = true;
-            document.getElementById("checkbox").hidden = true;
-            break;
         case'2':
             document.getElementById("radio").hidden = false;
-            document.getElementById("checkbox").hidden = true;
             break;
         case'3':
-            document.getElementById("radio").hidden = true;
             document.getElementById("checkbox").hidden = false;
             break;
     }

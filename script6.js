@@ -57,7 +57,7 @@ function calc() {
                     }
                     break;
             }
-            answer.innerHTML = result;
+            answer.innerHTML = result + " руб.";
         }
     } 
 

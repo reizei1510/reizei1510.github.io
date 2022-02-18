@@ -32,7 +32,6 @@ function hiden() {
 function click2() {
         let prod, count, checkbox, radio, answer;
         let result = 0;
-        var rate, chec = 0;
         prod = document.getElementById('prod').value;
         count = parseInt(document.getElementById('count').value);
         checkbox = document.getElementsByName('checkbox');
@@ -42,16 +41,6 @@ function click2() {
         if ((!Number.isInteger(count)) || (count < 0)) {
             answer.innerHTML = "Введите количество";
         } else {
-            for (var i = 0; i < radio.length; i++) {
-                if (radio[i].checked) {
-                    rate = radio[i].value;
-                }
-            }
-            for (var i = 0; i < checkbox.length; i++) {
-                if (checkbox[i].checked) {
-                    chec += checkbox[i].value;
-                }
-            }
             switch (prod) {
                 case '1':
                     result = count * 300;
@@ -76,16 +65,6 @@ function click2() {
             }
             answer.innerHTML = "Стоимость: " + result + " руб.";
         }
-        console.log("prod");
-        console.log(prod);
-        console.log("count");
-        console.log(count);
-        console.log("radio");
-        console.log(rate);
-        console.log("checkbox");
-        console.log(chec);
-        console.log("answer");
-        console.log(answer);
     } 
 
   window.addEventListener('DOMContentLoaded', function (event) {

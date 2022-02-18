@@ -57,19 +57,19 @@ function click2() {
                     result = count * 300;
                     break;
                 case '2':
-                    if (rate == 1) {
+                    if (radio[0].checked) {
                         result = count * 100;
                     }
-                    if (rate == 2) {
+                    if (radio[1].checked) {
                         result = count * 7000;
                     }
                     break;
                 case '3':
                     result = count * 400;
-                    if (chec == 1) {
+                    if (checkbox[0].checked) {
                         result += count * 200;
                     }
-                    if (chec == 2) {
+                    if (checkbox[1].checked) {
                         result += count * 100;
                     }
                     break;

@@ -14,7 +14,7 @@ body {
 }
 
 .main_content {
-  height: 400px;
+  max-height: 500px;
   margin: 20px;
   color: #000000;
   display: flex;
@@ -26,7 +26,6 @@ body {
   max-wight: 300px;
   margin: 20px;
   display: flex;
-  text-align: center;
 }
 
 #welcome {

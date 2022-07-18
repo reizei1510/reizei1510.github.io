@@ -6,8 +6,6 @@ body {
   margin: 0;
   background: url(images/background.jpg);
   background-attachment: fixed;
-  flex-direction: column;
-  display: flex;
 }
 
 .main_content {
@@ -19,8 +17,7 @@ body {
   margin: 20px;
   max-height: 500px;
   max-wight: 500px;
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
 
 #welcome {
@@ -42,8 +39,6 @@ body {
     1px -1px 1px #1E90FF,
     -1px  1px 1px #1E90FF,
     1px  1px 1px #1E90FF;
-  display: flex;
-  align-items: center;
 }
 
 .main_content_blocks {

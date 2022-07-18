@@ -4,8 +4,11 @@
 
 body {
   margin: 0;
+  height: 100%;
   background: url(images/background.jpg);
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
 }
 
 .main_content {
@@ -14,9 +17,10 @@ body {
 }
 
 #main_logo {
+  max-height: 400px;
+  max-wight: 400px;
   margin: 20px;
-  max-height: 500px;
-  max-wight: 500px;
+  display: flex;
   text-align: center;
 }
 

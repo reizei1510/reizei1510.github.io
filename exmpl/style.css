@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: url ('images/background.img');
+  background: url ('images/background.jpg');
   background-attachment: fixed;
   flex-direction: column;
   display: flex;

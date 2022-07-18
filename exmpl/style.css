@@ -6,6 +6,8 @@ body {
   margin: 0;
   background: url ('images/background.img');
   background-attachment: fixed;
+  flex-direction: column;
+  display: flex;
 }
 
 .main_content {
@@ -42,7 +44,6 @@ body {
 }
 
 .main_content_blocks {
-  display: flex;
   align-items: center;
   flex-wrap: wrap;
 }

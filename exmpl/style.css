@@ -43,6 +43,7 @@ body {
 .main_content_blocks {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .block {

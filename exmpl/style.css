@@ -22,6 +22,7 @@ body {
 }
 
 #main_logo {
+  display: block;
   max-height: 300px;
   max-wight: 300px;
   margin: 20px auto;

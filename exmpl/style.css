@@ -12,7 +12,6 @@ body {
 
 .main_content {
   margin: 20px;
-  align-items: center;
   color: #000000;
 }
 
@@ -20,6 +19,8 @@ body {
   margin: 20px;
   max-height: 500px;
   max-wight: 500px;
+  display: flex;
+  align-items: center;
 }
 
 #welcome {
@@ -41,11 +42,15 @@ body {
     1px -1px 1px #1E90FF,
     -1px  1px 1px #1E90FF,
     1px  1px 1px #1E90FF;
+  display: flex;
+  align-items: center;
 }
 
 .main_content_blocks {
   align-items: center;
   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
 }
 
 .block {

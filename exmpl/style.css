@@ -29,6 +29,7 @@ body {
 }
 
 #welcome {
+  display: block;
   color: #FFFFFF;
   text-shadow:
     -0 -1px 1px #1E90FF,

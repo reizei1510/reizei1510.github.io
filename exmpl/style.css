@@ -4,8 +4,7 @@
 
 body {
   margin: 0;
-  background-image: url (images/background.img);
-  
+  background-image: url ('images/background.img');
 }
 
 .main_content {

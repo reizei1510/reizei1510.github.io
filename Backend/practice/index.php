@@ -15,7 +15,7 @@
 
         <div class="welcome"><h1>Diary</h1></div>
 	<div class="welcome_text">Welcome</div>
-	<p>You can <a href="logup.php">Join</a> or <a href="read.php">Read</a>
+	<p>You can <a href="logup.php">Join</a> or <a href="login.php">Login</a> or <a href="read.php">Read</a>
       
     </div>
 	

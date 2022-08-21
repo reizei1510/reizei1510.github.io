@@ -20,12 +20,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $messages = array();
     if ($errors['usr_login']) {
         setcookie('usr_login_error', '', 100000);
-        $messages['usr_login'] = $errors['usr_login'] == 'empty' ? 'Введите логин.' : 'Данный логин не зарегистрирован.';
+        $messages['usr_login'] = $errors['usr_login'] == 'empty' ? 'Input login.' : 'Login not registered.';
     }
     else $messages['usr_login'] = '';
     if ($errors['usr_pass']) {
         setcookie('usr_pass_error', '', 100000);
-        $messages['usr_pass'] = $errors['usr_pass'] == 'empty' ? 'Введите пароль.' : 'Неверный пароль.';
+        $messages['usr_pass'] = $errors['usr_pass'] == 'empty' ? 'Input password.' : 'Incorrect password.';
     }
     else $messages['usr_pass'] = '';
 
@@ -41,27 +41,39 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 <body>
     <div class="topnav">
         <a href="index.php">Diary</a>
-        <div class="topnav_right">
-            <?php if (empty($_SESSION['login'])) {
-                print '<a href="./login.php">Log In</a><a href="./logup.php">Log Up</a>';
-            }
-            else {
-                print '<a href="profile.php" ><img id="img_profile" src="images/profile.png" alt="profile"></a>'; } ?>
-        </div>
     </div>
+	
+    <div class="content">
 	    
-    <form action="" method="POST">
-      
-        <label>
-            <input name="usr_login" <?php if ($errors['usr_login']) { print 'class="error"'; } ?> placeholder="login" /><br>
-		        <div class="error_message"><?php print $messages['usr_login']; ?></div>
-        </label><br>
-        <label>
-            <input name="usr_pass" type="password" <?php if ($errors['usr_pass']) { print 'class="error"'; } placeholder="password" ?> /><br>
-		        <div class="error_message"><?php print $messages['usr_pass']; ?></div>
-        </label><br>
-        <input type="submit" class="button" value="Log In" />
-    </form>
+        <form action="" method="POST">
+          
+            <label>
+                <input name="usr_login" <?php if ($errors['usr_login']) { print 'class="error"'; } ?> placeholder="login" /><br>
+    		        <div class="error_message"><?php print $messages['usr_login']; ?></div>
+            </label><br>
+            <label>
+                <input name="usr_pass" type="password" <?php if ($errors['usr_pass']) { print 'class="error"'; } placeholder="password" ?> /><br>
+    		        <div class="error_message"><?php print $messages['usr_pass']; ?></div>
+            </label><br>
+            <input type="submit" class="button" value="Log In" />
+        </form>
+    	    
+    </div>
+	
+    <footer>
+        <table>
+	    <tr>
+                <td><a href="about.php">About</a></td>
+                <td><a href="contacts.php">Contacts</a></td>
+                <td><a href="contacts.php">Rules</a></td>
+	    </tr>
+            <tr>
+                <td><a href="admin.php">Are you admin?</a></td>
+            </tr>
+        </table>
+    <footer>
+
+</body>
           
 <?php
   

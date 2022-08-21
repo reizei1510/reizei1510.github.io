@@ -9,13 +9,6 @@
 <body>
     <div class="topnav">
         <a href="index.php">Diary</a>
-        <div class="topnav_right">
-            <?php if (empty($_SESSION['login'])) {
-                print '<a href="./login.php">Log In</a><a href="./logup.php">Log Up</a>';
-            }
-            else {
-                print '<a href="profile.php" ><img id="img_profile" src="images/profile.png" alt="profile"></a>'; } ?>
-        </div>
     </div>
 	
     <div class="content">

@@ -7,11 +7,6 @@ if (empty($_SESSION['token']))
     $_SESSION['token'] = bin2hex(random_bytes(15));
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-	
-    if (!empty($_SESSION['login'])) {
-        session_destroy();
-        header('Location: ./');
-    }
 
     $errors = array();
     $errors['usr_login'] = empty($_COOKIE['usr_login_error']) ? false : $_COOKIE['usr_login_error'];
@@ -41,6 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 <body>
     <div class="topnav">
         <a href="index.php">Diary</a>
+	<div class="topnav_right">
+	    <a href="logup.php">Log Up</a>
+	</div>
     </div>
 	
     <div class="content">

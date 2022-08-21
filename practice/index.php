@@ -20,14 +20,23 @@
 	
     <div class="content">
 
-     CONTENT
+        <div class="welcome"><h1>Diary</h1></div>
+	<div class="welcome_text">Welcome</div>
+	<p>You can <a href="logup.php">Join</a> or <a href="read.php">Read</a>
       
     </div>
 	
     <footer>
-        <div class="footpoint"><a href="about.php">About</a></div>
-        <div class="footpoint"><a href="contacts.php">Contacts</a></div>
-        <div class="footpoint"><a href="admin.php">Are you admin?</a></div>
+        <table>
+	    <tr>
+                <td><a href="about.php">About</a></td>
+                <td><a href="contacts.php">Contacts</a></td>
+                <td><a href="contacts.php">Rules</a></td>
+	    </tr>
+            <tr>
+                <td><a href="admin.php">Are you admin?</a></td>
+            </tr>
+        </table>
     <footer>
  
 </body>
